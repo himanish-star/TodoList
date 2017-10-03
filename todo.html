@@ -1,0 +1,30 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+    <title>To Do List</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="todo.css" rel="stylesheet">
+</head>
+<body class="alpha">
+<div class="container-fluid p-4" >
+
+    <div class="row h3" style="font-weight: bold;position:relative;left: 43%">To Do List</div>
+
+    <div style='position: relative;left: 20%' class="row">
+        <input type="text" id="add-new-todo" class="col-6">
+        <button id="add-btn" class="mr-2 ml-2 col-0.5 btn btn-primary"><i class="fa fa-plus-circle"></i></button>
+        <button id="del-btn" class="col-0.5 btn btn-danger"><i class="fa fa-trash"></i></button>
+        <i class="col-3 align-self-center" style="font-style: normal;font-size: 20px"><input id="all-select" type="checkbox"><b>Select All</b></i>
+    </div>
+
+    <div class="row">
+        <ul style="padding-left:0;width: 100%" id="list"></ul>
+    </div>
+
+</div>
+
+<script src="todo.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+</body>
+</html>

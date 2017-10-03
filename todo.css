@@ -1,0 +1,17 @@
+div {
+    padding-left: 0;
+    /*background-color: w;*/
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+
+.alpha{
+
+    background-image: url("cartoon-header.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
